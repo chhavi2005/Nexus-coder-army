@@ -1,0 +1,25 @@
+/* element selector */
+h1{
+    color: coral;
+    background-color: black;
+}
+td{
+    color: plum;
+    background-color: rgb(0, 79, 79);
+}
+/* class selector */
+.first{
+    color: cyan ;
+}
+
+/* id selector */
+#firstID{
+    color: royalblue;
+}
+
+/* id selector with class selctor */
+#firstID.first{
+    color: red;
+}
+
+/* most common are these 3 - element,id,class */
