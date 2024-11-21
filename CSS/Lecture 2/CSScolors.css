@@ -1,0 +1,67 @@
+/* COlORS */
+/* by name */
+h1{
+    color: red;
+}
+/* by rgb (0-255) */
+h2{
+    color: rgb(130, 180, 98);
+}
+/* by hexadecimal use # (0-f) */
+li{
+    color: #53b3f9;
+}
+/* by hsl (0-360,0-100%,0-100%)*/
+/* hue is color shade */
+/* saturation is how intense should be the color on grayscale*/
+/* lightness shows black(0%) or white(100%) */
+p{
+    color: hsl(170, 80%, 50%);
+}
+/* by rgba/hsla where a(alpha) shows transparency(0) or opaque(1) */
+h4{
+   color: rgba(250, 20, 60, 0.6);
+   background-color: antiquewhite;
+}
+/* bg image */
+body{
+    background-image: url(./bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* FONTS */
+ol{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+}
+ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+}
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 70px;
+}
+/* font size can be - cm,reemm=,em,px,% */
+/* 1080p - 1920pixels in width 1080pixels in height */
+/* 1 pixel length - depends on the screen size */
+
+/* relative sizes */
+/* em means -times the parent font size */
+/* rem means -times the root font size */
+/* % - relative to parent font size */
+
+p{
+    /* font-size: 5vh; */
+    /* viewport height */
+    /* font-size: 5vw; */
+    /* viewport width */
+    font-weight: bolder;
+    /* 100-900,normal,bold */
+    font-style: oblique;
+    /* italic,oblique,normal */
+    font-variant: small-caps;
+
+    font-size: 200%;
+}
