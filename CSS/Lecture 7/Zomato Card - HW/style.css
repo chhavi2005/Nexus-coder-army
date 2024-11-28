@@ -1,0 +1,96 @@
+body{
+    background-color: rgba(255, 255, 255, 0.963);
+}
+.card{
+    width: 300px;
+    height: 330px;
+    padding: 10px;
+    position: relative;
+    left:550px;
+    top: 150px;
+}
+.anchor{
+    display: block;
+    height: 350px;
+    width: 320px;
+}
+.img1{
+    height: 250px;
+    width: 300px;
+    border: 1px;
+    border-radius: 6%;
+}
+.card:hover{
+    border: 1000px;
+    border-radius: 4%;
+    background-color: white;
+    box-shadow:1px 2px 15px rgba(0, 0, 0, 0.7);
+}
+.name{
+    position: relative;
+    left: 564px;
+    top: 48px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1C1C1C;
+    margin: 8px 0px 6px;
+}
+.rating{
+    width: 40px;
+    position: relative;
+    top: 3px;
+    left: 810px;
+    padding: 2px 3px 2px 5px;
+    border: 0px;
+    border-radius: 6px;
+    background-color: #0E5020;
+    color: white;
+}
+.cuisine{
+    position: relative;
+    top: 10px;
+    left: 564px;
+    padding: 3px 0px 4px;
+    color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.price{
+    position: relative;
+    top: -13px;
+    left: 775px;
+    padding: 3px 0px 4px;
+    color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.address{
+    position: relative;
+    top: -10px;
+    left: 566px;
+    padding: 0px 0px 4px;
+    color: #9C9C9C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.distance{
+    position: relative;
+    top: -31px;
+    left: 820px;
+    padding: 0px 0px 4px;
+    color: #363636;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.promoted{
+    color: white;
+    background-color: #00000086;
+    font-size: 9px;
+    width: 36px;
+    padding: 0px 5px;
+    position: relative;
+    top: 182px;
+    left: 575px;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 10;
+}
