@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+.box{
+    display: inline-block;
+}
+body{
+    background-color: rgb(213, 206, 206);
+    margin-left: 240px;
+    margin-top: 30px;
+}
+.card{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 7px solid rgb(213, 206, 206);   
+    border-radius: 20px;
+}
+.card:hover{
+    background-color: white;
+    border-color: white;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.image{
+    position: relative;
+}
+.img{
+    height: 248px;
+    width: 328px;
+    border-radius: 20px;
+    object-fit: cover; /*to make the image zoom*/
+}
+.off{
+    position: absolute;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    /* background-color:rgba(13, 25, 255, 0.756); */
+    background-color: rgb(255, 255, 0,0.7);
+    padding: 3px 15px 1px 5px;
+    bottom: 22px;
+    filter: invert(100%) brightness(100%);
+
+}
+.restaurant{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.name{
+    font-size: 17px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1C1C1C;
+}
+.rating{
+    background-color: #267E3E;
+    height: 10px;
+    padding: 1px 4px 8px;
+    color: white;
+    position: absolute;
+    right: 5px;
+    border-radius: 7px;
+}
+.food{
+    position: relative;
+}
+.cusine{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #696969;
+    padding: 0px 0px 4px;
+}
+.price{
+    position: absolute;
+    right: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #696969;
+    padding: 0px 0px 4px;
+}
+.location{
+    position: relative;
+}
+.address{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9C9C9C;
+    padding: 0px 0px 4px;
+}
+.distance{
+    position: absolute;
+    right: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #363636;
+    padding: 2px 5px 3px;
+}
